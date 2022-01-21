@@ -58,7 +58,7 @@
   Resnet-101을 백본으로 사용을 하고 Atrous Convolution을
   병렬로 적용을 한 Atrous Spatial Pyramid Polling(ASPP)기법을 적용한다.
 
-- HRNet
+- HRNet v2
 
   <img width="754" alt="스크린샷 2022-01-21 14 27 23" src="https://user-images.githubusercontent.com/90365512/150471129-d2b876d0-df1b-40a2-a7e1-fb24981ea98d.png">
 
