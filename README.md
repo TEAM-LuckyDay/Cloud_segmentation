@@ -63,10 +63,17 @@
 
 - HRNet
 
-  ![image](https://user-images.githubusercontent.com/66707865/150470829-716d388b-3191-4dd5-a8dd-92e4170b609c.png)
+  <img width="754" alt="스크린샷 2022-01-21 14 27 23" src="https://user-images.githubusercontent.com/90365512/150471129-d2b876d0-df1b-40a2-a7e1-fb24981ea98d.png">
 
+  모든 프로세스에서 high resolution representation 보존.
   
-
+  High-resolution convolution stream으로부터 시작하고 스테이지를 하나씩 넘어가면서 low resolution branch가 하나씩 확장되는 구조
+  
+  n번째의 stage에서의 출력은 n개의 high-low resolution representation으로 구성되고 각 stage가 끝날때 마다 feature를 fuse하는 부분 존재
+  
+  high resolution을 유지하면서 multi scale fusion을 수행하므로 semantic한 관점에서 성능 좋다.
+  
+  
 
 ## 5. 프로젝트 팀원 역할 분담
 
