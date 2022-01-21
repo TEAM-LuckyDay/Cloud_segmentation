@@ -25,7 +25,28 @@
 
 
 
-## 3. Baseline Model
+## 3. 데이터 소개
+
+> - 아리랑 3호 및 3A호(KOMPSAT-3A) 에서 취득한 위성영상 패치
+> - R,G,B, NIR 4채널로 생성된 영상 활용
+> - GSD(Ground Sample Distance) : 0.7 / 0.55 m
+> - 구름의 특징에 따라 두꺼운 구름, 얇은 구름, 그림자, 청천으로 분류
+> - 1024x1024 크기의 패치 단위
+> - 다양한 지표 특성을 반영하여 4000장 이상
+
+
+### - Data Image
+
+|PNG File(NGR)|PNG FIle(RGB)|tif File|PNG FIle(Label)|
+|:----:|:---------:|:----:|:----:|
+|![CLD00001_NGR_K3A_NIA0001](https://user-images.githubusercontent.com/66707865/150467296-72ed74e0-8eab-40f1-b52d-ace2ca7b9b0e.png)|![CLD00001_RGB_K3A_NIA0001](https://user-images.githubusercontent.com/66707865/150467306-ebcecdca-7f2b-403a-b34e-2b67a112ebe7.png)|![2022-01-21 13 54 50](https://user-images.githubusercontent.com/66707865/150468446-12effd76-ea6e-4dfd-b493-1871bc3caced.jpg)|![CLD00001_MS4_K3A_NIA0001_label](https://user-images.githubusercontent.com/66707865/150469172-5a04ed35-10be-4016-b8c3-be17437509ec.png)|
+
+> - NGR File : Blue채널을 빼서 대기의 영향이 상대적으로 적게 나타나며 녹지의 특성이 두드러지게 나타나고 결론적으로 구름 그림자가 더 두드러지게 나타남.
+> - tif : 위경도 정보가 들어 있어서 지도에 표현이 가능함. 영상을 열고 데이터를 확인 하기 위해서는 위성영상 무료 전문 프로그램인 QGIS 를 사용해야 한다.
+> - Label : 빨간색-짙은구름, 녹색-옅은구름, 노란색-그림자 를 의미하며 비트맵 형태인 png파일로 구성.
+
+
+## 4. Baseline Model
 
 - Dilated U-net
 
@@ -40,12 +61,6 @@
   ![image](https://user-images.githubusercontent.com/66707865/150466450-c8827c39-fe4e-4ae9-8d62-6b1887c0bd7e.png)
 
   
-
-
-
-
-
-## 4. 프로젝트 구성도
 
 
 ## 5. 프로젝트 팀원 역할 분담
