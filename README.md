@@ -32,7 +32,7 @@
 > - 다양한 지표 특성을 반영하여 4000장 이상
 
 
-### - Data Image
+- Data Image
 
 |PNG File(NGR)|PNG FIle(RGB)|tif File|PNG FIle(Label)|
 |:----:|:---------:|:----:|:----:|
@@ -89,3 +89,14 @@
 > - matplotlib 3.2.2
 
 ## 7. Reference
+
+- 오한, 김보람, 김진형, “다목적실용위성 3호/3A호 영상을 위한 딥러닝기반 구름 검출 알고리즘”, 한국항공우주학회 학술발표회 초록집, pp128-130, 2020
+
+- Olaf Ronneberger, Philipp Fischer, Thomas Brox, "U-Net: Convolutional Networks for Biomedical Image Segmentation",  arXiv:1505.04597v1, 2015.
+
+- Liang-Chieh Chen, George Papandreou, Florian Schroff, Hartwig Adam, "Rethinking Atrous Convolution for Semantic Image Segmentation", arXiv:1706.05587v3, 2017.
+
+- Ke Sun, Yang Zhao, Borui Jiang, Tianheng Cheng, Bin Xiao, Dong Liu, Yadong Mu, Xinggang Wang, Wenyu Liu, Jingdong Wang, "High-Resolution Representations for Labeling Pixels and Regions", arXiv:1904.04514v1, 2019.
+
+
+
