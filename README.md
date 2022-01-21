@@ -63,7 +63,7 @@
 
 - HRNet
 
-  ![image](https://user-images.githubusercontent.com/66707865/150466450-c8827c39-fe4e-4ae9-8d62-6b1887c0bd7e.png)
+  ![image](https://user-images.githubusercontent.com/66707865/150470829-716d388b-3191-4dd5-a8dd-92e4170b609c.png)
 
   
 
