@@ -25,10 +25,30 @@
 
 
 
-## 3. 프로젝트 기능 설명
+## 3. Baseline Model
+
+- Dilated U-net
+
+  ![image](https://user-images.githubusercontent.com/66707865/150466007-415f7e51-bbca-4365-a6c4-c4022c727ed8.png)
+  
+- Deeplab V3
+
+  ![image](https://user-images.githubusercontent.com/66707865/150466422-85896bb0-7509-419d-888d-39c2d7eca88e.png)
+
+- HRNet
+
+  ![image](https://user-images.githubusercontent.com/66707865/150466450-c8827c39-fe4e-4ae9-8d62-6b1887c0bd7e.png)
+
+  
 
 
-## 4. 프로젝트 팀원 역할 분담
+
+
+
+## 4. 프로젝트 구성도
+
+
+## 5. 프로젝트 팀원 역할 분담
 
 |이름| 담당 업무 |
 |:----:|:---------:|
@@ -36,7 +56,7 @@
 |박용현| 모델 구축|
 |정의경| 어쩌구저쩌구|
 
-## 5. 개발 환경
+## 6. 개발 환경
 
 
-## 6. Reference
+## 7. Reference
