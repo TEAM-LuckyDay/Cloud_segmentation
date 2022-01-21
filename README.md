@@ -56,7 +56,7 @@
   
 - Deeplab V3
 
-  ![image](https://user-images.githubusercontent.com/66707865/150466422-85896bb0-7509-419d-888d-39c2d7eca88e.png)
+  ![image](https://user-images.githubusercontent.com/90362552/150472271-d557395d-821d-4b64-95d5-99ea5ddc37c5.png)
 
   Resnet-101을 백본으로 사용을 하고 Atrous Convolution을
   병렬로 적용을 한 Atrous Spatial Pyramid Polling(ASPP)기법을 적용한다.
@@ -65,13 +65,13 @@
 
   <img width="754" alt="스크린샷 2022-01-21 14 27 23" src="https://user-images.githubusercontent.com/90365512/150471129-d2b876d0-df1b-40a2-a7e1-fb24981ea98d.png">
 
-  모든 프로세스에서 high resolution representation 보존.
+  모든 프로세스에서 high resolution representation을 보존한다.
   
-  High-resolution convolution stream으로부터 시작하고 스테이지를 하나씩 넘어가면서 low resolution branch가 하나씩 확장되는 구조
+  High-resolution convolution stream으로부터 시작하고 스테이지를 하나씩 넘어가면서 low resolution branch가 하나씩 확장되는 구조.
   
-  n번째의 stage에서의 출력은 n개의 high-low resolution representation으로 구성되고 각 stage가 끝날때 마다 feature를 fuse하는 부분 존재
+  n번째의 stage에서의 출력은 n개의 high-low resolution representation으로 구성되고 각 stage가 끝날때 마다 feature를 fuse하는 부분이 존재한다.
   
-  high resolution을 유지하면서 multi scale fusion을 수행하므로 semantic한 관점에서 성능 좋다.
+  high resolution을 유지하면서 multi scale fusion을 수행하므로 semantic한 관점에서 성능이 좋다.
   
   
 
