@@ -52,17 +52,18 @@
 
   ![image](https://user-images.githubusercontent.com/66707865/150466007-415f7e51-bbca-4365-a6c4-c4022c727ed8.png)
   
+  Semantic Segmentation Algorithm 중 대표적인 U-Net에 기존 Convolution과 다르게 kernel 중간에 간격을 두어 더 넓은 recpetive field를 얻을 수 있는 Atrous Convolution을 추가로 적용한다.  
   
 - Deeplab V3
 
   ![image](https://user-images.githubusercontent.com/66707865/150466422-85896bb0-7509-419d-888d-39c2d7eca88e.png)
-  Semantic Segmentation Algorithm 중 대표적인 U-Net에
-  기존 Convolution과 다르게 kernel 중간에 간격을 두어 더 넓은 recpetive field를 얻을 수 있는 Atrous Convolution을 추가로 적용한다.
+
+  Resnet-101을 백본으로 사용을 하고 Atrous Convolution을
+  병렬로 적용을 한 Atrous Spatial Pyramid Polling(ASPP)기법을 적용한다.
+
 - HRNet
 
   ![image](https://user-images.githubusercontent.com/66707865/150466450-c8827c39-fe4e-4ae9-8d62-6b1887c0bd7e.png)
-  Resnet-101을 백본으로 사용을 하고 Atrous Convolution을
-  병렬로 적용을 한 Atrous Spatial Pyramid Polling(ASPP)기법을 적용한다.
 
   
 
