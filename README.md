@@ -48,7 +48,7 @@
 
 - Dilated U-net
 
-  ![image](https://user-images.githubusercontent.com/66707865/150466007-415f7e51-bbca-4365-a6c4-c4022c727ed8.png)
+  ![image](https://user-images.githubusercontent.com/66707865/157150234-7a1137a6-e2eb-45da-8e6b-3d486b60956e.png)
   
   Semantic Segmentation Algorithm 중 대표적인 U-Net에 기존 Convolution과 다르게 kernel 중간에 간격을 두어 더 넓은 recpetive field를 얻을 수 있는 Atrous Convolution을 추가로 적용한다.  
   
